@@ -97,7 +97,7 @@ while continue_reading:
             data = []
             # Fill the data with 0x00
             for x in range(0,16):
-                data.append(0x00)
+                data.append(0x20)
 
             print("Now we fill it with 0x00:")
             MIFAREReader.MFRC522_Write(8, data)
